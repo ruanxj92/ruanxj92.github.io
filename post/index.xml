@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on C-Algorithm Engineer Site</title>
+    <link>http://ruanxj92.github.io/post/</link>
+    <description>Recent content in Posts on C-Algorithm Engineer Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 27 Jul 2019 18:56:57 +0800</lastBuildDate>
+    
+	<atom:link href="http://ruanxj92.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Windwos 下基于hugo搭建博客</title>
+      <link>http://ruanxj92.github.io/post/firstblog/</link>
+      <pubDate>Sat, 27 Jul 2019 18:56:57 +0800</pubDate>
+      
+      <guid>http://ruanxj92.github.io/post/firstblog/</guid>
+      <description>安装hugo 在本地准备两个目录：
+ 项目目录：d:\hugo\myblog
+ 可执行文件目录: d:\hugo\bin  到hugo git 发布页下载编译好的二进制包hugo_0.56.0_Windows-64bit.zip , 把下载的hugo包内容解压到\bin 目录
+改path，将hugo加入到path内
+set PATH=%PATH%;d:\hugo\bin 
+检查安装的版本
+hugo version
+得到的输出结果类似于:
+Hugo Static Site Generator v0.56.0-45F4EB98 windows/amd64 BuildDate: 2019-07-25T16:41:02Z 
+那么说明hugo安装成功
+搭建博客 myblog目录:
+cd myblog
+创建一个新的 博客站点:
+hugo new site C-AlgorithmEngineer
+博客的目录内:
+cd C-AlgorithmEngineer`
+git 初始化：
+git init
+到 hugo主题官方站找好看的主题下载至本地
+git clone https://github.com/vaga/hugo-theme-m10c.git themes/m10c 
+由于网络原因，某些主题下载的耗时速度慢，耗时较长。
+然后执行以下命令预览草稿
+hugo server -t m10c --buildDrafts  参数说明：
+-t: 指定主题
+m10c: 指定的具体主题名称</description>
+    </item>
+    
+  </channel>
+</rss>

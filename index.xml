@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>C-Algorithm Engineer Site</title>
-    <link>http://ruanxj92.github.io/</link>
+    <link>ruanxj92.github.io/</link>
     <description>Recent content on C-Algorithm Engineer Site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 27 Jul 2019 18:56:57 +0800</lastBuildDate>
     
-	<atom:link href="http://ruanxj92.github.io/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="ruanxj92.github.io/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Windwos 下基于hugo搭建博客</title>
-      <link>http://ruanxj92.github.io/post/firstblog/</link>
+      <link>ruanxj92.github.io/post/firstblog/</link>
       <pubDate>Sat, 27 Jul 2019 18:56:57 +0800</pubDate>
       
-      <guid>http://ruanxj92.github.io/post/firstblog/</guid>
+      <guid>ruanxj92.github.io/post/firstblog/</guid>
       <description>安装hugo 在本地准备两个目录：
  项目目录：d:\hugo\myblog
  可执行文件目录: d:\hugo\bin  到hugo git 发布页下载编译好的二进制包hugo_0.56.0_Windows-64bit.zip , 把下载的hugo包内容解压到\bin 目录
